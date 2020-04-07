@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Medula+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+
+</head>
+<body id="body">
+    
+<div id="container-5">
+
+  <h2>Project BlackJack</h2>
+  <h3 id="resultText">Let's Play</h3>
+
+
+  <div id="board">
+
+    <div class="bothBoards" id="yourBoard">
+      <h2>You : <span id="yourCurrentScore">0</span></h2>
+    </div>
+
+    <div class="bothBoards" id="dealerBoard">
+      <h2>Dealer : <span id="dealerCurrentScore">0</span></h2>
+    </div>
+
+  </div>
+
+  <div id="btnDiv">
+
+    <div id="btn-list">
+      <button id="hitBtn" type="button" class="btn btn-primary btn-lg">Hit</button>
+      <button id="standBtn" type="button" class="btn btn-warning btn-lg">Stand</button>
+      <button id="dealBtn" type="button" class="btn btn-danger btn-lg">Deal</button>
+    </div>
+
+  </div>
+
+  <div id="scoreDiv">
+    <table id="finalScoreTable">
+      <tr>
+        <th>Wins:</th>
+        <th>Losses:</th>
+        <th>Draws:</th>
+      </tr>
+      <tr>
+        <td id="finalScoreWins">0</td>
+        <td id="finalScoreLosses">0</td>
+        <td id="finalScoreDraws">0</td>
+      </tr>
+    </table>
+  </div>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
